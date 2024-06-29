@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <!-----style css----->
+  <link href="style.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#" style="color: white;">Portfoli<span style="color: deeppink;">o</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hello" aria-controls="hello"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="hello">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;"> Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;">skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main class="full">
+    <div id="home">
+      <p style="color: white; font-size: 250%;">Hello, I'm <br> a Web Developer
+      <p style="color: white; width: 50%;">Fond of creating web applications, designs and bring them to life using code
+        & develop designs</p>
+    </div>
+    <p style="color: deeppink; font-size: 250%; padding-bottom: 0; margin-bottom: 0;">About-me</p>
+    <hr style="border: 2px solid deeppink; width: 10%; margin: 0;">
+    <div id="about" class="about" style="padding-bottom: 10%;">
+      <div class="part01 p-3">
+        <p style="color: white; ">I'm a Font-end Developer located in India. I have serious passion for Ui effects,
+          animations and creating intuitive, dynamic user experiences.<br> Well organised person, problem solver,
+          individual with high attention to detail. </p>
+      </div>
+      <div class="part02 p-3">
+        <ul
+          style="list-style-type: none; color: white; border: 2px solid deeppink; background: deeppink; border-radius: 2%;">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SASS</li>
+          <li>JS</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
+      <div class="part03 p-3">
+        <img src="https://t3.ftcdn.net/jpg/05/31/71/02/360_F_531710260_ByieqNe7Ut6QBHgIR7xgdsxH7gICrHr1.jpg"
+          class="img-fluid">
+      </div>
+    </div>
+    <p style="color: deeppink; font-size: 250%; padding-bottom: 0; margin-bottom: 0;">Projects</p>
+    <hr style="border: 2px solid deeppink; width: 10%; margin: 0;">
+    <div id="project" class="project" style="padding-top: 2%;">
+      <div class="card card1">
+        <p>I created a sleep debt calculator inspired from sleepopolis company's official website. This static web is
+          used to check whether you have had proper sleep throughout the week or not by getting your ideal and actual
+          sleep time ranges for every-day and also give some insights about the importance of sleeping atleast 7 hours
+          per 24 hours.</p>
+        <img
+          src="data:image/png;base64,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"
+          class="img-fluid p-3">
+      </div>
+      <div class="card card2">
+        <p>It's a landing page of some random company idea that I had in my mind as project for my internship in prodigy
+          infotech. It helps me to test my knowledge on basic front-end technologies and design a minimalist design
+          which match current trend in website aesthetics.</p>
+        <img
+          src="data:image/jpeg;base64,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"
+          class="img-fluid p-3">
+      </div>
+      <div class="card card3">
+        <p>This one is most challenging for me when I look for inspiration. Usually nowadays people using figma to
+          design portfolios but when I try to code it personally needs lots of effort and at last I ended up with this
+          simple portfolio. This is first project which motivate me to understand the depth of HTML and CSS.</p>
+        <img src="https://149842033.v2.pressablecdn.com/wp-content/uploads/2021/02/black.jpg" class="img-fluid p-3">
+      </div>
+    </div>
+
+    <p style="color: deeppink; font-size: 250%; padding-bottom: 0; margin-bottom: 0; padding-top: 15%;" >Connect with me</p>
+    <hr style="border: 2px solid deeppink; width: 10%; margin: 0;">
+    <div id="contact" class="contact">
+      <div class="p1" style="padding-top: 5%; color: white;">
+        <p>Full Name</p>
+        <hr style="width: 75%; border-color: white; margin: 0;" class="p-1">
+        <p>E-mail</p>
+        <hr style="width: 75%; border-color: white; margin: 0;" class="p-1">
+        <p>Message</p>
+        <hr style="width: 75%; border-color: white; margin: 0;" class="p-1">
+      </div>
+      <div class="p2" style="padding-top: 5%; color: white;">
+        <h3 style="padding-bottom: 0 !important;">Contact</h3>
+        <p style="padding-bottom: 2% !important;">thaiyalnaayagi2006@gmail.com</p>
+        <h3 style="padding-bottom: 0 !important;">Based in</h3>
+        <span>Chennai</span>
+        <span>Tamil Nadu</span>
+    </div>
+  </main>
+  <footer class="p-5" style="padding-bottom: 0 !important;">
+    <div class="footer-section">
+        <ul class="social-links">
+            <li class="p-1"><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+            <li class="p-1"><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
+            <li class="p-1"><a href="https://twitter.com/yourusername" target="_blank">Twitter</a></li>
+        </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
